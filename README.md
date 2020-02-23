@@ -1,4 +1,4 @@
-# App-Ideas-Challenge
+## :ledger: App Ideas Collection Challenge
 
 ### Tier-1: Beginner Projects
 
