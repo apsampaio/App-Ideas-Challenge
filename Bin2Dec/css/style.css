@@ -1,0 +1,83 @@
+ body {
+  margin:0;
+  padding: 0;
+  background: rgba(245, 245, 245, 0.664);
+}  
+h7 {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+}
+.container {
+  text-align: center;
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  left: calc(50% - 200px);
+  bottom: calc(50% - 125px);
+}
+
+.user-input {
+  width: 300px;
+}
+
+.mg {
+  margin: 10px;
+}
+
+.form-control {
+  letter-spacing: 4px;
+}
+
+input {
+  text-align: center;
+}
+
+.invalid {
+  
+  animation: invalid linear 1.5s infinite;
+}
+
+.valid {
+  animation: valid linear 1.5s;
+}
+
+.btn:hover {
+  cursor: default
+}
+
+@keyframes valid {
+
+  0% {
+    border: 2px
+    solid
+    lightgreen;
+  }
+
+  100% {
+    border: 2px
+    solid
+    rgba(144, 238, 144, 0.096);
+  }
+
+}
+
+@keyframes invalid {
+
+  0% {
+    border: 2px
+    solid
+    rgba(255, 99, 71, 0.164)55, 99, 71, 0.137);
+  }
+  50% {
+    border: 2px
+    solid
+    tomato;
+  }
+  100% {
+    border: 2px
+    solid
+    rgba(255, 99, 71, 0.164)55, 99, 71, 0.137);
+  }
+
+}

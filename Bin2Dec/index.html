@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binary-to-Decimal</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h2>Binary-to-Decimal</h2>
+      <div class="mg user-input">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">MSB</span>
+          </div>
+          <input
+            placeholder="00000000"
+            maxlength="8"
+            class="valid form-control"
+          />
+          <div class="input-group-append">
+            <span class="input-group-text">LSB</span>
+          </div>
+        </div>
+      </div>
+      <div class="mg input-group">
+        <input class="decimal-output" readonly />
+        <div class="input-group-append">
+          <span class="btn btn-success">Decimal</span>
+        </div>
+      </div>
+      <div class="mg alert alert-primary" role="alert">
+        Learn more about Binary numbers here: <br />
+        <strong>
+          <a href="https://en.wikipedia.org/wiki/Binary_number"
+            >Wikipedia Binary Number</a
+          >
+        </strong>
+      </div>
+    </main>
+    <h7>Dev.: Andre Sampaio</h7>
+    <script src="js/script.js"></script>
+  </body>
+</html>
