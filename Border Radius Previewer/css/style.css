@@ -5,8 +5,8 @@
 /* Main shape */
 .shape-holder {
   position: absolute;
-  left: calc(50% - 125px);
-  bottom: calc(50% - 180px);
+  left: calc(50% - 130px);
+  bottom: calc(50% - 100px);
   width: 260px;
   height: 260px;
   border: dotted 5px;
@@ -34,8 +34,8 @@
 /* Main slider */
 .all-holder {
   position: absolute;
-  left: calc(50% - 60px);
-  bottom: calc(50% + 100px);
+  left: 2%;
+  top: 35%;
   width: 120px;
   height: fit-content;
 }
@@ -55,44 +55,93 @@
 #br {
   transform: rotate(270deg);
 }
+.c-top-right,
+.c-bottom-right {
+  transform: rotate(180deg);
+}
 /* Top-left slider */
 .tl-holder {
   position: absolute;
-  left: calc(50% - 300px);
-  bottom: 50%;
+  left: calc(50% - 190px);
+  bottom: calc(50% + 90px);
+  width: 220px;
+  height: fit-content;
+}
+/* Complex-Top-left slider */
+.c-tl-holder {
+  position: absolute;
+  left: calc(50% - 115px);
+  bottom: calc(50% + 155px);
   width: 220px;
   height: fit-content;
 }
 /* Top-right slider */
 .tr-holder {
   position: absolute;
-  right: calc(50% - 330px);
-  bottom: 50%;
-  width: 230px;
+  right: calc(50% - 310px);
+  bottom: calc(50% + 90px);
+  width: 220px;
+  height: fit-content;
+}
+/* Complex-Top-Right slider */
+.c-tr-holder {
+  position: absolute;
+  left: calc(50% + 20px);
+  bottom: calc(50% + 155px);
+  width: 220px;
   height: fit-content;
 }
 /* Bottom-left slider */
 .bl-holder {
   position: absolute;
-  left: calc(50% - 323px);
-  bottom: calc(50% - 220px);
-  width: 235px;
+  left: calc(50% - 190px);
+  bottom: calc(50% - 90px);
+  width: 220px;
   height: 100px;
+}
+/* Complex-Bottom-Left slider */
+.c-bl-holder {
+  position: absolute;
+  left: calc(50% - 115px);
+  bottom: calc(50% - 170px);
+  width: 200px;
+  height: fit-content;
 }
 /* Bottom-right slider */
 .br-holder {
   position: absolute;
-  right: calc(50% - 345px);
-  bottom: calc(50% - 220px);
-  width: 245px;
+  right: calc(50% - 310px);
+  bottom: calc(50% - 90px);
+  width: 220px;
   height: 100px;
+}
+/* Complex-Bottom-Right slider */
+.c-br-holder {
+  position: absolute;
+  left: calc(50% + 20px);
+  bottom: calc(50% - 170px);
+  width: 200px;
+  height: fit-content;
 }
 /* Badge */
 .badge-info {
   width: 50px;
 }
-
-@media screen and (max-width: 750px) {
+.badge {
+  display: block;
+  width: fit-content;
+}
+.mr {
+  margin-left: 80px;
+}
+.ml {
+  margin-left: -40px;
+}
+/* Button */
+.btn {
+  margin: 5px;
+}
+@media screen and (max-width: 880px) {
   body {
     background-color: lightcoral;
   }
@@ -100,7 +149,7 @@
     visibility: visible;
   }
 }
-@media screen and (max-height: 410px) {
+@media screen and (max-height: 460px) {
   body {
     background-color: lightcoral;
   }

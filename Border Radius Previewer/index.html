@@ -22,8 +22,8 @@
       <span class="all-value badge badge-info">0%</span>
     </div>
     <div class="tl-holder">
-      <label class="badge badge-danger" for="tl">top-left</label>
-      <span class="tl-value badge badge-info">0%</span>
+      <label class="ml badge badge-danger" for="tl">top-left</label>
+      <span class="ml tl-value badge badge-info">0%</span>
       <input
         id="tl"
         class="bord top-left custom-range"
@@ -32,18 +32,18 @@
       />
     </div>
     <div class="tr-holder">
+      <label class="mr badge badge-danger" for="tr">top-right</label>
+      <span class="mr tr-value badge badge-info">0%</span>
       <input
         id="tr"
         class="bord top-right custom-range"
         type="range"
         value="0"
       />
-      <label class="badge badge-danger" for="tr">top-right</label>
-      <span class="tr-value badge badge-info">0%</span>
     </div>
     <div class="bl-holder">
-      <label class="badge badge-danger" for="bl">bottom-left</label>
-      <span class="bl-value badge badge-info">0%</span>
+      <label class="ml badge badge-danger" for="bl">bottom-left</label>
+      <span class="ml bl-value badge badge-info">0%</span>
       <input
         id="bl"
         class="bord bottom-left custom-range"
@@ -52,14 +52,56 @@
       />
     </div>
     <div class="br-holder">
+      <label class="mr badge badge-danger" for="tr">bottom-right</label>
+      <span class="mr br-value badge badge-info">0%</span>
       <input
         id="br"
         class="bord bottom-right custom-range"
         type="range"
         value="0"
       />
-      <label class="badge badge-danger" for="tr">bottom-right</label>
-      <span class="br-value badge badge-info">0%</span>
+    </div>
+    <div class="complex-holder">
+      <div class="c-tl-holder">
+        <label class="badge badge-danger" for="c-tl">c-top-left</label>
+        <span class="c-tl-value badge badge-info">0%</span>
+        <input
+          id="c-tl"
+          class="bord c-top-left custom-range"
+          type="range"
+          value="0"
+        />
+      </div>
+      <div class="c-tr-holder">
+        <label class="badge badge-danger" for="c-tr">c-top-right</label>
+        <span class="c-tr-value badge badge-info">0%</span>
+        <input
+          id="c-tr"
+          class="bord c-top-right custom-range"
+          type="range"
+          value="0"
+        />
+      </div>
+      <div class="c-br-holder">
+        <input
+          id="c-br"
+          class="bord c-bottom-right custom-range"
+          type="range"
+          value="0"
+        /><br />
+        <label class="badge badge-danger" for="c-br">c-bottom-right</label>
+        <span class="c-br-value badge badge-info">0%</span>
+      </div>
+      <div class="c-bl-holder">
+        <input
+          id="c-bl"
+          class="bord c-bottom-left custom-range"
+          type="range"
+          value="0"
+        /><br />
+        <label class="badge badge-danger" for="c-bl">c-bottom-left</label>
+        <span class="c-bl-value badge badge-info">0%</span>
+      </div>
     </div>
     <div class="output-holder form-group">
       <h4>CSS code</h4>
@@ -68,6 +110,8 @@
         id="output"
         readonly
       ></textarea>
+      <button class="copy btn btn-success">Copy</button>
+      <button class="complex btn btn-info">Complex</button>
     </div>
     <div class="alert alert-danger" role="alert">
       <strong>Oh snap!</strong> Page size too small, things may not look
