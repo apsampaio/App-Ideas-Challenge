@@ -22,4 +22,8 @@ and 1's, in any sequence and then displays its decimal equivalent.
 
 ## Result
 
+<<<<<<< HEAD
 ### See the result at [codepen.io](https://codepen.io/apsampaio/full/dyoOxKZ) [![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/Bin2Dec/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/dyoOxKZ)
+=======
+> ### See the result at [codepen.io](https://codepen.io/apsampaio/full/dyoOxKZ) [![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/Bin2Dec/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/dyoOxKZ)
+>>>>>>> 8340621438629f6d262235c7d4cea2e425b8fa1d
