@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Border Radius Previewer</title>
+  </head>
+  <body>
+    <div class="shape-holder">
+      <div class="shape"></div>
+    </div>
+    <div class="all-holder">
+      <label class="badge badge-danger" for="all">All Borders</label>
+      <input id="all" class="all-borders custom-range" type="range" value="0" />
+      <span class="all-value badge badge-info">0%</span>
+    </div>
+    <div class="tl-holder">
+      <label class="badge badge-danger" for="tl">top-left</label>
+      <span class="tl-value badge badge-info">0%</span>
+      <input
+        id="tl"
+        class="bord top-left custom-range"
+        type="range"
+        value="0"
+      />
+    </div>
+    <div class="tr-holder">
+      <input
+        id="tr"
+        class="bord top-right custom-range"
+        type="range"
+        value="0"
+      />
+      <label class="badge badge-danger" for="tr">top-right</label>
+      <span class="tr-value badge badge-info">0%</span>
+    </div>
+    <div class="bl-holder">
+      <label class="badge badge-danger" for="bl">bottom-left</label>
+      <span class="bl-value badge badge-info">0%</span>
+      <input
+        id="bl"
+        class="bord bottom-left custom-range"
+        type="range"
+        value="0"
+      />
+    </div>
+    <div class="br-holder">
+      <input
+        id="br"
+        class="bord bottom-right custom-range"
+        type="range"
+        value="0"
+      />
+      <label class="badge badge-danger" for="tr">bottom-right</label>
+      <span class="br-value badge badge-info">0%</span>
+    </div>
+    <div class="output-holder form-group">
+      <h4>CSS code</h4>
+      <textarea
+        class="code-output form-control"
+        id="output"
+        readonly
+      ></textarea>
+    </div>
+    <div class="alert alert-danger" role="alert">
+      <strong>Oh snap!</strong> Page size too small, things may not look
+      right...
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

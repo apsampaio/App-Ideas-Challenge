@@ -1,0 +1,110 @@
+/* Alert */
+.alert {
+  visibility: hidden;
+}
+/* Main shape */
+.shape-holder {
+  position: absolute;
+  left: calc(50% - 125px);
+  bottom: calc(50% - 180px);
+  width: 260px;
+  height: 260px;
+  border: dotted 5px;
+}
+.shape {
+  width: 250px;
+  height: 250px;
+
+  background-color: tomato;
+}
+/* code output */
+.output-holder {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+
+  text-align: center;
+  width: 20%;
+  height: 100px;
+}
+.code-output {
+  resize: none;
+  height: 100px;
+}
+/* Main slider */
+.all-holder {
+  position: absolute;
+  left: calc(50% - 60px);
+  bottom: calc(50% + 100px);
+  width: 120px;
+  height: fit-content;
+}
+#all {
+  width: 100px;
+  display: block;
+}
+/* vertical sliders */
+.bord {
+  width: 100px;
+}
+#tl,
+#tr {
+  transform: rotate(90deg);
+}
+#bl,
+#br {
+  transform: rotate(270deg);
+}
+/* Top-left slider */
+.tl-holder {
+  position: absolute;
+  left: calc(50% - 300px);
+  bottom: 50%;
+  width: 220px;
+  height: fit-content;
+}
+/* Top-right slider */
+.tr-holder {
+  position: absolute;
+  right: calc(50% - 330px);
+  bottom: 50%;
+  width: 230px;
+  height: fit-content;
+}
+/* Bottom-left slider */
+.bl-holder {
+  position: absolute;
+  left: calc(50% - 323px);
+  bottom: calc(50% - 220px);
+  width: 235px;
+  height: 100px;
+}
+/* Bottom-right slider */
+.br-holder {
+  position: absolute;
+  right: calc(50% - 345px);
+  bottom: calc(50% - 220px);
+  width: 245px;
+  height: 100px;
+}
+/* Badge */
+.badge-info {
+  width: 50px;
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    background-color: lightcoral;
+  }
+  .alert {
+    visibility: visible;
+  }
+}
+@media screen and (max-height: 410px) {
+  body {
+    background-color: lightcoral;
+  }
+  .alert {
+    visibility: visible;
+  }
+}
