@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Baloo Chettan 2", cursive;
+}
+
+.calc {
+  width: 350px;
+  height: 470px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-display {
+  background-color: whitesmoke;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+
+  width: 350px;
+  height: 150px;
+
+  font-size: 30px;
+  text-align: right;
+  line-height: 250px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.calc-inputs {
+  display: flex;
+  flex-direction: row;
+}
+
+.calc-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 87.5px;
+  height: 80px;
+
+  background-color: rgb(60, 64, 66);
+  color: whitesmoke;
+
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+}
+
+.input:hover {
+  transition: ease 0.3s;
+  background-color: rgb(70, 73, 75);
+}
+
+.input:active {
+  background-color: rgb(99, 103, 105);
+}
+
+.operator {
+  background-color: rgb(95, 98, 103);
+
+  height: 64px;
+  line-height: 64px;
+  font-size: 22px;
+}
+
+.operator:hover {
+  background-color: rgb(105, 108, 113);
+}
+.operator:active {
+  background-color: rgb(132, 138, 143);
+}
