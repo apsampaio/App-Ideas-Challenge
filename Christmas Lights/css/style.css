@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+}
+
+.lights-handler {
+  width: 400px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+
+  opacity: 0.1;
+  background-color: tomato;
+  box-shadow: 0px 0px 25px 1px tomato;
+}
+
+.blink {
+  animation: 1s blink infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.1;
+  }
+}
+
+.light-option {
+  position: relative;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  padding: 5px;
+  border: 5px white dotted;
+  width: fit-content;
+  margin-top: -90px;
+}
+
+.start,
+.stop {
+  border: solid 1px tomato;
+  background-color: tomato;
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100px;
+  margin: 10px;
+}
