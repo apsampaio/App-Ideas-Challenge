@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Sen&display=swap");
+
+* {
+  font-family: "Sen", sans-serif;
+}
+
+div {
+  font-size: 16px;
+}
+
+.name {
+  font-weight: bold;
+
+}
+
+.name:hover {
+
+  color: tomato;
+}
+
+ul {
+  list-style-type: none;
+  margin: 5px 0px 5px 20px;
+  padding: 0;
+}
