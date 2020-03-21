@@ -5,7 +5,7 @@ const people = [
     city: "Sorocaba",
     state: "São Paulo",
     country: "Brazil",
-    telephone: "3233-4858",
+    telephone: null,
     birthday: "...",
     gender: "Male"
   },
@@ -52,7 +52,7 @@ const people = [
 ];
 
 people.forEach(person => {
-  const b = document.querySelector("body");
+  const b = document.querySelector(".list-holder");
   const d = document.createElement("div");
   const name = document.createElement("div");
   name.className = "name";
@@ -68,18 +68,41 @@ people.forEach(person => {
 
   name.addEventListener("click", ev => {
 
-    const currentList = document.querySelector('ul');
-    if (currentList) currentList.remove()
+    removeCurrentList();
+    removeSelected();
 
+    name.className += " selected"
     const list = document.createElement("ul");
+    d.appendChild(list);
+
     const keys = Object.keys(person);
+
+    let count = 10;
     keys.forEach(key => {
       if (key == "name") return;
-      const li = document.createElement("li");
-      const text = document.createTextNode(person[key]);
-      li.appendChild(text);
-      list.appendChild(li);
+      setTimeout(() => {
+        const li = document.createElement("li");
+        const text = document.createTextNode(
+          key == null
+            ? "..."
+            : person[key]
+        );
+        li.appendChild(text);
+        list.appendChild(li);
+      }, count);
+      count += 20;
     });
-    d.appendChild(list);
   });
 });
+
+function removeSelected() {
+
+  const el = document.querySelector('.selected');
+  if (!el) return;
+  el.className = 'name'
+}
+
+function removeCurrentList() {
+  const currentList = document.querySelector('ul');
+  if (currentList) currentList.remove()
+}

@@ -6,20 +6,26 @@
 
 div {
   font-size: 16px;
-}
-
-.name {
-  font-weight: bold;
-
+  width: fit-content;
 }
 
 .name:hover {
+  color: lightcoral;
+}
+
+.selected {
 
   color: tomato;
+  font-weight: bold;
+  font-size: 18px;
+
+  border-bottom: 1px solid lightgrey;
+
 }
 
 ul {
   list-style-type: none;
-  margin: 5px 0px 5px 20px;
+  margin: 5px 0px 5px 30px;
   padding: 0;
 }
+

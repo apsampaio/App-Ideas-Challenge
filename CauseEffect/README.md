@@ -39,10 +39,10 @@ constraints:
 
 -   [x] User can see the person name in the summary pane highlighted when the
         cursor is hovered over it.
--   [ ] User can see the person name in the summary pane highlighted
+-   [x] User can see the person name in the summary pane highlighted
         using a selection effect (color, size, etc.) when it is clicked. This is a
         different effect from the hover effect
--   [ ] User can see the selection effect removed from a name in the summary
+-   [x] User can see the selection effect removed from a name in the summary
         list when a new name is clicked.
 
 ## Useful links and resources
@@ -65,3 +65,8 @@ const people = [
 
 Checkout the interaction between the Navigation items on the left hand side
 of the page and the main body of the page on the [Javascript MDN site](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## Result
+
+> ### See the result live [codepen.io](https://codepen.io/apsampaio/full/ZEGMYza) [![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/CauseEffect/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/ZEGMYza)
+
