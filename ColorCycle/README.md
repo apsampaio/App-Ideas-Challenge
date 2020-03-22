@@ -34,4 +34,4 @@ an RGB color specification (e.g. `#000000` color code).
 
 ## Result
 
-> ### See the result live [codepen.io](https://codepen.io/apsampaio/full/JjdaJzZ) [![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/ColorCycle/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/JjdaJzZ)
+> ### See the result live [codepen.io](https://codepen.io/apsampaio/full/JjdaJzZ) [![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/ColorCycle/img/prev1.png?raw=true)](https://codepen.io/apsampaio/full/JjdaJzZ)
