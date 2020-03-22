@@ -68,5 +68,6 @@ of the page and the main body of the page on the [Javascript MDN site](https://d
 
 ## Result
 
-> ### See the result live [codepen.io](https://codepen.io/apsampaio/full/ZEGMYza) [![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/CauseEffect/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/ZEGMYza)
+> ### See the result live [codepen.io](https://codepen.io/apsampaio/full/ZEGMYza)
+[![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/CauseEffect/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/ZEGMYza)
 
