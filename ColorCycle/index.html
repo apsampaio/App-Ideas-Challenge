@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ColorCycle</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="main-holder">
+    <div class="start-holder a">
+      START COLOR
+      <input class="rgb-input r" type="text" maxlength="2" placeholder="R">
+      <input class="rgb-input g" type="text" maxlength="2" placeholder="G">
+      <input class="rgb-input b" type="text" maxlength="2" placeholder="B">
+    </div>
+    <div class="increment-holder">
+      INCREMENT VALUE
+      <input class="rgb-input r-inc" type="number" placeholder="R">
+      <input class="rgb-input g-inc" type="number" placeholder="G">
+      <input class="rgb-input b-inc" type="number" placeholder="B">
+    </div>
+
+    <button class="btn">START</button>
+    <input type="range" class="timing" min="250" max="500" step="10">
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -9,3 +9,4 @@
 | [Calculator](./Calculator/README.md)                             | Calculator                                              | 1-Beginner |
 | [Christmas Lights](./Christmas%20Lights/README.md)               | Christmas Lights                                        | 1-Beginner |
 | [CauseEffect](./CauseEffect/README.md)               | Click list item to display item details                                        | 1-Beginner |
+| [ColorCycle](./ColorCycle/README.md)               | Cycle a color value through incremental changes                                        | 1-Beginner |
