@@ -31,4 +31,4 @@ displayed during the Christmas Holidays.
 ## Result
 
 > ### See the result live [codepen.io](https://codepen.io/apsampaio/full/OJVEdQa)
-[![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/Christmas%20Lights/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/OJVEdQa)
+[![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/Beginner/Christmas%20Lights/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/OJVEdQa)

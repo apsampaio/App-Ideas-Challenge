@@ -53,6 +53,6 @@ mobile device to better understand basic functionality and edge cases.
 ## Result
 
 > ### See the result live [codepen.io](https://codepen.io/apsampaio/full/wvajMbR)
-[![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/Calculator/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/wvajMbR)
+[![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/Beginner/Calculator/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/wvajMbR)
 
 Didn't spend much time on this because i've done a [Calculator](https://github.com/apsampaio/HCODE-JavascriptTraining/tree/master/Project1) already.

@@ -22,4 +22,4 @@ The border-radius property can have multiple values changed. Preview how the sha
 ## Result
 
 > ### See the result live [codepen.io](https://codepen.io/apsampaio/full/LYVxBoV)
-[![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/Border%20Radius%20Previewer/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/LYVxBoV)
+[![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/Beginner/Border%20Radius%20Previewer/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/LYVxBoV)
