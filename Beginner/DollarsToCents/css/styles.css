@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #fdfdfd;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.coin-table {
+  display: flex;
+  justify-content: space-around;
+}
+
+.coin-table div {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.coin-table div p:first-child {
+  font-weight: 500;
+}
+
+form {
+  margin: 20px 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  left: calc(50% - 125px);
+  align-items: center;
+}
+form p {
+  color: lightgray;
+  margin: 5px;
+}
+input {
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  text-align: center;
+}
+
+button {
+  margin: 5px 0px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid tomato;
+  background-color: tomato;
+}
+
+table {
+  width: 200px;
+  position: relative;
+  left: calc(50% - 100px);
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}

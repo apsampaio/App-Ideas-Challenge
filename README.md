@@ -1,3 +1,7 @@
+<h6 align="center">
+  <img alt="Be the Hero" src="github/banner.png" width="100%" />
+</h6>
+
 <h1 align="center">
   :ledger: App Ideas Collection Challenge
 </h1>
@@ -60,6 +64,12 @@
   <tr>
     <td><a href="Beginner/ColorCycle/README.md">ColorCycle</a></td>
     <td>Cycle a color value through incremental changes</td>
+    <td>Beginner</td>
+    <td>Vanilla JS</td>
+  </tr>
+  <tr>
+    <td><a href="Beginner/DollarsToCents/README.md">Dollars To Cents</a></td>
+    <td>Convert dollars to cents</td>
     <td>Beginner</td>
     <td>Vanilla JS</td>
   </tr>
