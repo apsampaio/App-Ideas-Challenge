@@ -1,5 +1,5 @@
 <h4 align="center">
-  <img alt="Readme Banner" src="src/readme.png" width="100%"  />
+  <img alt="Readme Banner" src="src/readme.png" width="50%"  />
 </h4>
 
 <h1 align="center">
