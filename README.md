@@ -1,6 +1,4 @@
-<h6 align="center">
-  <img alt="Be the Hero" src="github/banner.png" width="100%" />
-</h6>
+<img align="center" alt="Code Banner" src="github/banner.png" width="100%"  />
 
 <h1 align="center">
   :ledger: App Ideas Collection Challenge
