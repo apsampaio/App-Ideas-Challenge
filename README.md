@@ -1,4 +1,6 @@
-<img align="center" alt="Code Banner" src="https://raw.githubusercontent.com/apsampaio/App-Ideas-Challenge/master/github/banner.png" width="100%"  />
+<h4 align="center">
+  <img alt="Code Banner" src="https://raw.githubusercontent.com/apsampaio/App-Ideas-Challenge/master/github/banner.png" width="100%"  />
+</h4>
 
 <h1 align="center">
   :ledger: App Ideas Collection Challenge
