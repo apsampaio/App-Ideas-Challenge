@@ -41,4 +41,4 @@ changing them from within the app.
 
 > ### See the result live [codepen.io](https://codepen.io/apsampaio/full/vYNOmMO)
 >
-> [![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/Beginner/DollarsToCents/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/vYNOmMO)
+> [![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/Beginner/DynamicCSSVariables/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/vYNOmMO)
