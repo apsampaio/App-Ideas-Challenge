@@ -1,5 +1,5 @@
 <h4 align="center">
-  <img alt="Code Banner" src="https://raw.githubusercontent.com/apsampaio/App-Ideas-Challenge/master/github/banner.png" width="100%"  />
+  <img alt="Readme Banner" src="src/readme.png" width="100%"  />
 </h4>
 
 <h1 align="center">
