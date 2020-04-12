@@ -1,11 +1,9 @@
-<h4 align="center">
-  <img alt="Readme Banner" src="src/readme.png" width="50%"  />
-</h4>
-
 <h1 align="center">
   :ledger: App Ideas Collection Challenge
 </h1>
-
+<h4 align="center">
+  <img alt="Readme Banner" src="src/readme.png" width="50%"  />
+</h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/apsampaio/App-Ideas-Challenge">
 
@@ -70,6 +68,12 @@
   <tr>
     <td><a href="Beginner/DollarsToCents/README.md">Dollars To Cents</a></td>
     <td>Convert dollars to cents</td>
+    <td>Beginner</td>
+    <td>Vanilla JS</td>
+  </tr>
+  <tr>
+    <td><a href="Beginner/DynamicCSSVariables/README.md">Dynamic CSS Variables</a></td>
+    <td>Dynamically change CSS variable settings</td>
     <td>Beginner</td>
     <td>Vanilla JS</td>
   </tr>
