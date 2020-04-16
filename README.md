@@ -28,54 +28,64 @@
     <th>Short Description</th>
     <th>Tier</th>
     <th>Technology</th>
+    <th>Rating</th>
   </tr>
   <tr>
     <td><a href="Beginner/Bin2Dec/README.md">Bin2Dec</a></td>
     <td>Binary-to-Decimal number converter</td>
     <td>Beginner</td>
-    <td>Vanilla JS</td>
+    <td>Vanilla JS, Bootstrap</td>
+    <td>:star::star::star:</td>
+
   </tr>
   <tr>
     <td><a href="Beginner/Border%20Radius%20Previewer/README.md">Border-radius Preview</a></td>
     <td>Preview how CSS3 border-radius values affect an element</td>
     <td>Beginner</td>
-    <td>Vanilla JS</td>
+    <td>Vanilla JS, Bootstrap</td>
+    <td>:star::star::star:</td>
   </tr>
   <tr>
     <td><a href="Beginner/Calculator/README.md">Calculator</a></td>
     <td>Calculator</td>
     <td>Beginner</td>
     <td>Vanilla JS</td>
+    <td>:star::star::star::star:</td>
   </tr>
   <tr>
     <td><a href="Beginner/Christmas%20Lights/README.md">Christmas Lights</a></td>
     <td>Christmas Lights</td>
     <td>Beginner</td>
     <td>Vanilla JS</td>
+    <td>:star::star:</td>
   </tr>
   <tr>
     <td><a href="Beginner/CauseEffect/README.md">CauseEffect</a></td>
     <td>Click list item to display item details</td>
     <td>Beginner</td>
     <td>Vanilla JS</td>
+    <td>:star::star:</td>
   </tr>
   <tr>
     <td><a href="Beginner/ColorCycle/README.md">ColorCycle</a></td>
     <td>Cycle a color value through incremental changes</td>
     <td>Beginner</td>
     <td>Vanilla JS</td>
+    <td>:star::star::star:</td>
   </tr>
   <tr>
     <td><a href="Beginner/DollarsToCents/README.md">Dollars To Cents</a></td>
     <td>Convert dollars to cents</td>
     <td>Beginner</td>
     <td>Vanilla JS</td>
+    <td>:star::star::star:</td>
   </tr>
   <tr>
     <td><a href="Beginner/DynamicCSSVariables/README.md">Dynamic CSS Variables</a></td>
     <td>Dynamically change CSS variable settings</td>
     <td>Beginner</td>
     <td>Vanilla JS</td>
+    <td>:star::star:</td>
   </tr>
 </table>
 
