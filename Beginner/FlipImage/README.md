@@ -34,4 +34,4 @@ Image packages and libraries are not allowed.
 
 > ### See the result live [codepen.io](https://codepen.io/apsampaio/full/BaoRPWd)
 >
-> [![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/Beginner/FlipImage/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/BaoRPWd)
+> [![codepen.io](https://github.com/apsampaio/App-Ideas-Challenge/blob/master/Beginner/FlipImage/src/img/prev.png?raw=true)](https://codepen.io/apsampaio/full/BaoRPWd)
