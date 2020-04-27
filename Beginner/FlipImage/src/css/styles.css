@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+.image-holder {
+  display: grid;
+  position: absolute;
+
+  left: calc(50% - 210px);
+  bottom: calc(50% - 210px);
+
+  grid: repeat(2, 210px) / auto-flow 210px;
+}
+.button-holder {
+  display: grid;
+  position: absolute;
+
+  left: calc(50% - 210px);
+  bottom: calc(50% - 210px);
+
+  grid: repeat(2, 210px) / auto-flow 210px;
+}
+
+.button-holder div {
+  opacity: 0;
+  display: grid;
+  grid: repeat(4, 50px) / auto-flow 50px;
+}
+
+.button-holder div:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.button-holder div button {
+  border: 1px solid white;
+  background-color: blueviolet;
+  color: aliceblue;
+  opacity: 0.5;
+}
+
+.button-holder div button:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.input-holder {
+  position: absolute;
+
+  left: calc(50% - 230px);
+  bottom: 5px;
+}
+
+.input-holder form {
+  border: 1px solid blueviolet;
+}
+
+.input-holder form input {
+  width: 400px;
+  height: 40px;
+
+  margin-left: 5px;
+
+  font-size: 16px;
+  line-height: 18px;
+
+  border: none;
+}
+
+.input-holder form button {
+  height: 40px;
+  width: 60px;
+
+  border: none;
+  border-left: 1px solid blueviolet;
+
+  background-color: white;
+}
+
+.input-holder form button:hover {
+  background-color: blueviolet;
+  color: white;
+  transition: 0.3s;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}

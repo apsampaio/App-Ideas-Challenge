@@ -87,6 +87,13 @@
     <td>Vanilla JS</td>
     <td>:star::star:</td>
   </tr>
+  <tr>
+    <td><a href="Beginner/FlipImage/README.md">Flip Image</a></td>
+    <td>Change the orientation of images across two axes</td>
+    <td>Beginner</td>
+    <td>Vanilla JS</td>
+    <td>:star::star::star:</td>
+  </tr>
 </table>
 
 ---
