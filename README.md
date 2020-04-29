@@ -94,6 +94,13 @@
     <td>Vanilla JS</td>
     <td>:star::star::star:</td>
   </tr>
+  <tr>
+    <td><a href="Beginner/GitHubStatus/README.md">GitHub Status</a></td>
+    <td>Display Current GitHub Status</td>
+    <td>Beginner</td>
+    <td>Vanilla JS, Axios</td>
+    <td>:star::star:</td>
+  </tr>
 </table>
 
 ---
