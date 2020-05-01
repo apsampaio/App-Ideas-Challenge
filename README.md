@@ -101,6 +101,13 @@
     <td>Vanilla JS, Axios</td>
     <td>:star::star:</td>
   </tr>
+  <tr>
+    <td><a href="Beginner/Hello/README.md">Hello</a></td>
+    <td>User native language greeting</td>
+    <td>Beginner</td>
+    <td>Vanilla JS, Axios</td>
+    <td>:star::star::star:</td>
+  </tr>
 </table>
 
 ---
