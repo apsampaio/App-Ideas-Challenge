@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IOT MailBox</title>
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="sidebar"></section>
+    <div class="buttons">
+      <button class="btn btn-outline-primary">Start Monitoring</button>
+      <button class="btn btn-outline-danger">Stop Monitoring</button>
+      <button class="btn btn-outline-success">Reset</button>
+    </div>
+    <div class="draw">
+      <div class="mail">
+        <div class="box"></div>
+        <div class="cover">
+          <div class="mail-hole"></div>
+        </div>
+        <div class="flag">
+          <div class="animate-flag noMail">
+            <div class="top-flag"></div>
+            <div class="body-flag"></div>
+          </div>
+          <div class="bottom-flag"></div>
+        </div>
+        <div class="stick"></div>
+      </div>
+    </div>
+    <img src="src/img/wifi.gif" />
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <script src="src/js/scripts.js"></script>
+    <script src="src/js/websocket.js"></script>
+  </body>
+</html>

@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* SideBar */
+
+.sidebar {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 100%;
+  max-height: 100%;
+  align-items: center;
+  background-color: #44475a;
+
+  overflow-y: auto;
+}
+
+.margin-toast {
+  width: 350px;
+  margin-top: 25px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #282a36;
+}
+
+/* Mail Draw */
+
+.draw {
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 200px;
+}
+
+.box {
+  position: fixed;
+  width: 300px;
+  height: 150px;
+
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+
+  background-color: dodgerblue;
+}
+
+.cover {
+  position: fixed;
+  width: 120px;
+  height: 150px;
+
+  border: 10px solid rgb(22, 102, 182);
+
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+
+  background-color: rgb(37, 126, 214);
+}
+
+.mail-hole {
+  position: relative;
+  left: calc(50% - 35px);
+  top: 40px;
+  width: 60px;
+  height: 15px;
+  border-radius: 20px;
+
+  background-color: rgb(13, 56, 100);
+}
+
+.stick {
+  position: fixed;
+  height: 300px;
+  width: 40px;
+
+  margin-top: 20px;
+
+  background-color: chocolate;
+  margin-left: 140px;
+
+  border-top: rgba(0, 0, 0, 0.3) 20px solid;
+}
+
+.flag {
+  position: relative;
+  left: 160px;
+  top: -40px;
+
+  width: fit-content;
+  height: fit-content;
+}
+
+.top-flag {
+  width: 40px;
+  height: 25px;
+
+  background-color: tomato;
+}
+
+.body-flag {
+  width: 15px;
+  height: 70px;
+
+  background-color: tomato;
+}
+
+.animate-flag {
+  position: relative;
+  top: 15px;
+  transform-origin: bottom;
+  transform: rotate(90deg);
+}
+
+.bottom-flag {
+  position: relative;
+  left: -9px;
+  top: -10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: tomato;
+}
+
+.newMail {
+  animation: newMail 0.5s ease;
+}
+.noMail {
+  animation: noMail 0.5s ease;
+}
+
+@keyframes newMail {
+  0% {
+    transform: rotate(90deg);
+  }
+  90% {
+    transform: rotate(-20deg);
+  }
+  95% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes noMail {
+  0% {
+    transform: rotate(0deg);
+  }
+  90% {
+    transform: rotate(100deg);
+  }
+  95% {
+    transform: rotate(80deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+.buttons {
+  position: fixed;
+  left: 450px;
+  top: 50px;
+  visibility: hidden;
+}
+
+img {
+  position: absolute;
+  width: 40px;
+
+  left: 490px;
+  top: 160px;
+
+  opacity: 0;
+}
+
+.spinner-border {
+  position: absolute;
+  width: 40px;
+
+  left: 490px;
+  top: 160px;
+
+  opacity: 1;
+}
